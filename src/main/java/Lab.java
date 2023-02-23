@@ -50,8 +50,9 @@ public class Lab {
     public boolean returnOr(boolean b1, boolean b2){
         //b1 = true;
         //b1 = false;
-        //boolean bool = b1 || b1;
-      return b1;
+        //boolean bool = b1 | b1;
+        //boolean bool = b2 | b2;
+      return b1|b2;
     }
 
 
